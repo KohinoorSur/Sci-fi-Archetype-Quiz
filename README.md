@@ -38,6 +38,7 @@ Credits and AI use:
 - Help and Feedback was given by:
     - ChatGPT: which assisted me in writing the scenarios, questions, syntax and mainly CSS
     - All Ai help is cited in the comments on offical code files.
+    - My friend and classmate Avie. 
  
 Thank you!!!!!!!! :) 
 
