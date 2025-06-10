@@ -20,7 +20,7 @@ How to use the website?
 2. Answer each questions carefully.
 3. Your archetype is revealed and you have the choice to visit a linked webpage that has character analysis of movie characters befitting you archetype.
 
-[**Watch my video explanation**](https://your-video-link-here.com)
+[**Watch my video explanation**](blob:https://screen-recorder.com/50f73fe8-0d87-4b1c-9ba2-b4500727604c)
 
 File Structure:
 - `index.html` - Homepage and where the quiz is located.
