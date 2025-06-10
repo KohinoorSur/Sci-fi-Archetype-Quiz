@@ -1,0 +1,260 @@
+/* I used the trivia styles.css file as reference for my own and I used chatGPT to give me like hex codes for eveything, buttons and trext, that would give it like a sci-fi look.
+Didn't learn as much CSS and also don't know colors very well*/
+/* ================================
+   GENERAL PAGE LAYOUT + BODY STYLE
+   ================================ */
+body {
+    background: black;
+    color: #c5c6c7;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* ================================
+   HEADINGS
+   ================================ */
+h1, h2, h3 {
+    color: #00FFFF;
+    text-align: center;
+    text-shadow: 0 0 10px #00FFFF88;
+    margin: 10px 0;
+}
+
+/* ================================
+   QUESTION + LABEL STYLING
+   ================================ */
+label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background-color: #121212;
+    transition: 0.3s ease;
+}
+
+label:hover {
+    background-color: #1a1a1a;
+    border-color: #00FFFF;
+    color: #00FFFF;
+    box-shadow: 0 0 8px #00FFFF55;
+}
+
+/* ================================
+   RESULT SECTION
+   ================================ */
+#result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result h3,
+#result p {
+    color: white;
+}
+
+#result h3 {
+    font-size: 2em;
+}
+
+#result p {
+    font-size: 1.2em;
+}
+
+#result .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#result button {
+    background: linear-gradient(45deg, #00FFFF, #005555);
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#result button:hover {
+    background: linear-gradient(45deg, #00bfff, #00ffaa);
+    box-shadow: 0 0 12px #00FFFF88;
+}
+
+.result-link {
+    font-size: 1.2em;
+    color: #00ffff;
+    text-decoration: underline;
+    font-family: 'Orbitron', sans-serif;
+    transition: 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+.result-link:hover {
+    color: #39ff14;
+    cursor: pointer;
+}
+
+/* ================================
+   BUTTONS (Global + Result Section)
+   ================================ */
+.button,
+#result button {
+    background: linear-gradient(45deg, #00FFFF, #005555);
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.button:hover,
+#result button:hover {
+    background: linear-gradient(45deg, #00bfff, #00ffaa);
+    box-shadow: 0 0 12px #00FFFF88;
+}
+
+/* ================================
+   NEXT/BACK BUTTON CONTAINER
+   ================================ */
+.back-next-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ================================
+   RESULT LINK
+   ================================ */
+.result-link {
+    font-size: 1.2em;
+    color: #00ffff; /* Neon cyan */
+    text-decoration: underline;
+    font-family: 'Orbitron', sans-serif;
+    transition: 0.3s ease;
+}
+
+.result-link:hover {
+    color: #39ff14;
+    cursor: pointer;
+}
+
+p {
+    max-width: 700px;
+    margin: 0 auto 10px;
+    line-height: 1.6;
+}
+
+h1 {
+  color: #00FFFF; /* Bright ice blue */
+  font-size: 2.8em;
+  text-shadow: 0 0 18px #66fcf1aa;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.lands {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.image-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lands-image {
+  max-width: 25%;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+
+}
+
+.start-button {
+  background: linear-gradient(45deg, #00FFFF, #005555);
+  color: black;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00FFFF99;
+  display: block;
+  margin: 20px auto;
+
+}
+
+.start-button:hover {
+  background: linear-gradient(45deg, #00ffaa, #00bfff);
+  box-shadow: 0 0 15px #00FFFFcc;
+}
+
+.highlight {
+    color: #00FFFF;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px #00FFFF, 0 0 10px ##00FFFF;
+}
+
+.question {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.question p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.back_q {
+     font-size: 1.8em;
+     color: #80EF80;
+}
+
+.sub_t {
+    font size: 2.1;
+}
+
+.hal{
+    width: auto;
+    height: 150;
+    display: block;
+    margin: 20px auto;
+
+}

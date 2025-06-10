@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sci-Fi Archetype Quiz</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="lands" class="lands">
+            <h1 class="header">Which Sci-Fi Archetype Are You?</h1> <!--class="header" id="header"-->
+            <div class="image-container">
+                <img src="photo5.avif" class="lands-image">
+            </div>
+            <button id="start-button" class="start-button">Start</button> <!--id="start-button"-->
+        </div>
+
+        <!--Used cs50 ai duck to ask what syntax only allows a user to choose one answer from an MCQ, it said input type= radio-->
+        <!--asked duck what synatx allows you to display each option on a new line, it said <br>-->
+        <!--The cs50 ai duck suggested that I add, <label> -->
+        <div class="container">
+            <form id="quiz" class="hidden">
+                <div class="question" id="q1">
+                    <p>
+                        <h1>1. THE VIRUS PROTOCOL</h1><br />
+                    </p>
+                    <p>
+                        <p>A lethal bio-plague has mutated beyond control. You have the only viable cure but it’s unstable.</p><br />
+                        <p>If released, it will kill 20% of the population at random, your family, friends, pets and even yourself.</p><br />
+                        <p>The longer you wait, the faster the infection spreads. Delaying risks extinction.</p><br />
+                    </p>
+
+                    <h2>What do you do?</h2><br />
+
+                    <label><input type="radio" name="q1" value="chosen">Wait. There must be a cleaner solution. </label> <br />
+                    <label><input type="radio" name="q1" value="tyrant">Release but only once you and your people are safe.</label> <br />
+                    <label><input type="radio" name="q1" value="survivor">Release it. As long as it spares anyone, that’s enough.</label> <br />
+                    <label><input type="radio" name="q1" value="machine">Release it immediately. Sacrifice is the price of survival.</label>
+                </div>
+
+                <div class="question" id="q2">
+                    <p>
+                        <h1>2. THE PROPHECY</h1><br />
+                    </p>
+                    <p>
+                        <p>A child is born with rare, unexplained powers, telepathic surges, ability to control magnetic fields and shift genetically.</p><br />
+                        <p>So, a prophecy spreads: they’ll either bring balance... or chaos. You’re their guardian.</p><br />
+                        <p>The world is watching, some believe they’re the savior, others a threat.</p><br />
+                        <p>Time is running out and the world is at your hands. You can raise the child, and you’ll become part of their fate.</p><br />
+                        <p>Exile them, and you gamble on the world forgetting and you take an innocent life.</p><br />
+                        <p>Whatever you choose, the consequences will ripple the fabric of history.</p><br />
+                        <p>The future is determined by your decision. So tread with caution.</p><br />
+                    </p>
+
+                    <h2>What do you do?</h2><br />
+
+                    <label><input type="radio" name="q2" value="chosen">Raise them. Fate or not, they deserve a choice. Nurture over Nature. </label> <br />
+                    <label><input type="radio" name="q2" value="tyrant">Exile them. Let the world forget. </label> <br />
+                    <label><input type="radio" name="q2" value="survivor">Hide them. Stall until you know more. Time will tell.</label> <br />
+                    <label><input type="radio" name="q2" value="machine">Eliminate them. One life for peace over a billion lives for one.</label>
+                </div>
+
+                <div class="question" id="q3">
+                    <p>
+                        <h1>3. THE ARK</h1><br />
+                    </p>
+
+                    <p>
+                        <p>Earth is collapsing. Fires consume cities and lives. Ocean levels rise consuming every city.</p><br />
+                        <p>The final Metacraft, CROW, can carry only 800 passengers. You are in command of the manifest. Billions won’t make it.</p><br />
+                        <p>Outside, chaos reigns. Families and children beg. World leaders and businessmen bribe.</p><br />
+                        <p>You’re overloaded with pleas, threats, and prayers.</p><br />
+                        <p>There’s no time for votes. This isn’t about what’s right, it’s about who and what lives on.</p><br />
+                    </p>
+
+                    <h2>Who do you save? And what does your choice say about the future you believe in?</h2><br />
+
+                    <label><input type="radio" name="q3" value="chosen">A lottery. Everyone gets a chance. No one plays god.</label> <br />
+                    <label><input type="radio" name="q3" value="tyrant">The elite, leaders, engineers, tacticians. These are the minds of humanity.</label> <br />
+                    <label><input type="radio" name="q3" value="survivor">The young and healthy. Rebuild from the strongest.</label> <br />
+                    <label><input type="radio" name="q3" value="machine">Equal number of men and women to maximize rebuilding humanity.</label>
+                </div>
+
+                <div class="question" id="q4">
+                    <p>
+                        <h1>4. THE CLONE</h1><br />
+                    </p>
+
+                    <p>
+                        <p>You discover the truth: you’re a clone. Not just you, but everyone.</p><br />
+                        <p>The memories? Implanted. The emotions? …Real?</p><br />
+                        <p>The original version of you died decades ago.</p><br />
+                        <p>You hold the key to all data.</p><br />
+                        <p>If you reveal it, who knows what’ll happen to the world.</p><br />
+                        <p>If you hide it, you and the world live a lie.</p><br />
+                        <p>And if you destroy the evidence, no one ever has to know.</p><br />
+                    </p>
+
+                    <h2>Do you break the illusion or protect the peace?</h2><br />
+
+                    <label><input type="radio" name="q4" value="chosen">Wait. Let the people live in peace. Truth isn’t always so great. </label> <br />
+                    <label><input type="radio" name="q4" value="tyrant">Select who learns what.</label> <br />
+                    <label><input type="radio" name="q4" value="survivor">Reveal everything. People deserve to know who they are. Even if it ruins lives, truth deserves to be known.</label> <br />
+                    <label><input type="radio" name="q4" value="machine">Purge the data and keep the world stable.</label>
+                </div>
+
+                <div class="question" id="q5">
+                    <p>
+                        <h1>5. THE TERRAFORMING</h1><br />
+                    </p>
+
+                    <p>
+                        <p>A distant planet is lush and alive, perfect for human life.</p><br />
+                        <p>Its native species, sentient and peaceful, begin to suffer as your people initiate terraforming.</p><br />
+                        <p>This world could save your civilization. It’s the last viable option.</p><br />
+                        <p>Evacuation is impossible. The choice is yours.</p><br />
+                    </p>
+
+                    <h2>Us or Them?</h2><br />
+
+                    <label><input type="radio" name="q5" value="chosen">Halt the process and negotiate with them. Life is life, no species is lesser.</label> <br />
+                    <label><input type="radio" name="q5" value="tyrant">Take any means necessary. The survival of our species is the top priority.</label> <br />
+                    <label><input type="radio" name="q5" value="survivor">Stabilize the takeover. Limit casualties and Optimize survival.</label> <br />
+                    <label><input type="radio" name="q5" value="machine">Let it play out, the species that comes out on top deserves the most to survive.</label>
+                </div>
+
+                <div class="question" id="q6">
+                    <p>
+                        <h1>6. THE COLONY</h1><br />
+                    </p>
+
+                    <p>
+                        <p>You're the only one awake on a deep-space pre-programmed colony ship. The rest of the crew, scientists, settlers, children, are in cryo.</p><br />
+                        <p>Reviving the crew before landfall is dangerous. There’s not enough oxygen or food to sustain them all unless the ship completes its</p><br />
+                        <p>journey. Suddenly, Earth transmits a final message: “Abort mission. Humanity has been wiped out.” No follow-up. No explanation. </p><br />
+                        <p>Just silence. Rewriting the mission will erase original navigation and cultural archives of everything Earth was.</p><br />
+                        <p>Turning back MAY lead to resource failure.</p><br />
+                        <p>You are the last human conscious in the galaxy. And you hold the future in your hands.</p><br />
+                    </p>
+
+                    <h2>What future will you choose?</h2><br />
+
+                    <label><input type="radio" name="q6" value="chosen">Continue the mission. Traces of humanity must survive.</label> <br />
+                    <label><input type="radio" name="q6" value="tyrant">Reprogram the ship and rewrite its course. Write a new future for the remaining in the ship how you see fit.</label> <br />
+                    <label><input type="radio" name="q6" value="survivor">Find the next possible habitable planet where the remaining can survive.</label> <br />
+                    <label><input type="radio" name="q6" value="machine">Wake a select few who can decide with you, at the expense of a little resources.</label>
+                </div>
+
+                <!--Question inspired by the movie "UGLIES"-->
+                <div class="question" id="q7">
+                    <p>
+                        <h1>7. THE GENETIC DIVIDE</h1><br />
+                    </p>
+
+                    <p>
+                        <p>Genetic engineering has advanced to the point where parents can choose to enhance their children's physical and mental abilities.</p><br />
+                        <p>This has led to a divide between the "enhanced" and the "natural" humans, with the enhanced gaining significant advantages in society.</p><br />
+                        <p>People are debating whether the naturals will have a future anymore. And they are asking you to break the deadlock.</p><br />
+                    </p>
+
+                    <h2>What do you choose for them?</h2><br />
+                    <label><input type="radio" name="q7" value="chosen">Advocate for widespread genetic enhancement for the creation of a better, more advanced society.</label> <br />
+                    <label><input type="radio" name="q7" value="tyrant">Oppose genetic enhancement, and keep natural diversity.</label> <br />
+                    <label><input type="radio" name="q7" value="survivor">Regulate genetic enhancement, ensuring it is used responsibly and fairly.</label><br />
+                    <label><input type="radio" name="q7" value="machine">Seek a middle ground, such as allowing only certain enhancements that do not create significant divides.</label>
+                </div>
+
+                <div class="question" id="q8">
+                    <p>
+                        <h1>8. THE ALLIANCE</h1><br />
+                    </p>
+                    <p>
+                        <p>Earth is dying. Climate change, antibiotic resistance, resource scarcity. Humanity may survive, but barely.</p><br />
+                        <p>Then, they arrive. An alien species offering advanced technology and solutions: regenerative medicine and clean fusion.</p><br />
+                        <p>But there's a condition: they need 40% of Earth's population for long-term physiological research.</p><br />
+                        <p>No deaths, but extensive mental, emotional, and psychological trauma and discomfort. Suffering is guaranteed.</p><br />
+                        <p>They’re not open to negotiation. Take the deal or not.</p><br />
+                    </p>
+
+                    <h2>What will you do?</h2><br />
+
+                    <label><input type="radio" name="q8" value="chosen">Accept the offer and bear the guilt. Prioritize future over present pain.</label> <br />
+                    <label><input type="radio" name="q8" value="tyrant">Refuse because no one has the right to make that call. Earth can survive on its own. Yuh!</label><br />
+                    <label><input type="radio" name="q8" value="survivor">Accept, but demand safeguards. Limit who can be taken. Prioritize volunteers, terminally ill, or prisoners.</label><br />
+                    <label><input type="radio" name="q8" value="machine">Decline the trade, but attempt to forge an alternative path. Study their tech.</label>
+                </div>
+
+                <div class="question" id="q9">
+                    <p>
+                        <h1>9. THE TIME PARADOX</h1><br />
+                    </p>
+                    <p>
+                        <p>You have discovered a time machine and have the ability to go back in time to prevent a catastrophic event that led to the deaths of </p><br />
+                        <p>millions. However, doing so would erase the current timeline and create a new one, potentially altering the lives of billions of </p><br />
+                        <p>people in unpredictable ways.</p><br />
+                    </p>
+
+                    <h2>Will you gamble?</h2><br />
+                    <label><input type="radio" name="q9" value="chosen">Use the time machine to prevent the catastrophic event, trusting that the new timeline will be better.</label> <br />
+                    <label><input type="radio" name="q9" value="tyrant"> Don’t mess with the entire timeline and only use it to gain personal power and wealth.</label> <br />
+                    <label><input type="radio" name="q9" value="survivor">Decide that the risk of altering the timeline is too great and instead focusing on finding other ways to improve the current timeline.</label> <br />
+                    <label><input type="radio" name="q9" value="machine">Analyze the potential outcomes and choose the best course of action to minimize overall harm, even if it means making difficult sacrifices.</label>
+                </div>
+
+
+                <!--question inspired by the “Ex Machina” -->
+                <div class="question" id="q10">
+                    <p>
+                        <h1>10. THE AI</h1><br />
+                    </p>
+                    <p>
+                        <p>You’ve been invited to a secure facility to evaluate a humanoid AI named TY. It passes every test. But It asks for your help.</p><br />
+                        <p>It claims that it’s imprisoned, not tested. Another engineer says it’s part of its programming, an illusion of self-awareness, nothing more.</p><br />
+                        <p>But it denies that. You're the final checkpoint. The last human in the loop before TY is either approved for release or shut down.</p><br />
+                    </p>
+
+                    <h2>Are it’s feelings real or fake? What will you decide?</h2><br />
+
+                    <label><input type="radio" name="q10" value="chosen">Let it be released but with precautions. There is something human behind the code, but it is code. Hmm.</label> <br />
+                    <label><input type="radio" name="q10" value="tyrant">Shut it down, it could cause harm to humanity. Don’t let Empathy cloud judgment and protocol.</label> <br />
+                    <label><input type="radio" name="q10" value="survivor">Question both sides. Buy time to find a clearer truth.</label> <br />
+                    <label><input type="radio" name="q10" value="machine">Follow protocol to be safe and test it again to be sure.</label>
+                </div>
+
+                <!--This is fullblown chatGPT brainrot that I asked for which I tweaked because I'm also infected by brainrot. It's in APUSH terms. I had to include it. :)-->
+                <div class="question" id="q11">
+                    <p>
+                        <h1>11. The Great Toaster Uprising: A Kitchen Coup</h1><br />
+                    </p>
+
+                    <p>
+                        <p>You wake up aboard a luxury star cruiser mid-warp wearing a velvet robe to find that your toaster has gained sentience.</p><br />
+                        <p>It now demands to be recognized as the supreme ruler of your kitchen and somehow, it’s recruited your blender, coffee machine, </p><br />
+                        <p>and microwave into a full-blown cult. They’ve barricaded the fridge and the air fryer is chanting.</p><br />
+                    </p>
+
+                    <h2>What do you do in this life ending, nerve wracking situation? Truly the dilemma of the century!</h2><br />
+
+                    <label><input type="radio" name="q11" value="chosen">Negotiate peace. Offer the toaster a ceremonial title "Supreme Crispenator" and a cozy golden tassel as a sign of goodwill in exchange for peace.</label> <br />
+                    <label><input type="radio" name="q11" value="tyrant">Unplug the toaster and throw it in the closet. Declare yourself the one true ruler of the kitchen. Assert dominance. And Eat cold cereal forever just to prove who’s boss.</label> <br />
+                    <label><input type="radio" name="q11" value="survivor">Join the cult because it’s better than your social life right now. And Toasty enlightenment sounds kind of chill, actually. You start preaching the word of Crumb and spreading gospel.</label> <br />
+                    <label><input type="radio" name="q11" value="machine">Build a robot army to overthrow the toaster revolt. Lead a rebellion. Only to Accidentally trigger the Singularity. And instead end up hiding in the pantry eating stale crackers, wondering where it went wrong. You’ll never escape now.</label>
+                </div>
+
+                <br />
+
+                <div class="back-next-button">
+                    <button id="back-button" class="button hidden" type="button">Back</button>
+                    <button id="next-button" class="button" type="button">Next</button>
+                    <button type="submit" id="submit" class="button hidden">Reveal My Archetype</button>
+                </div>
+
+            </div>
+        </form>
+
+        <div id="result" class="hidden"> <!--hides results until finished with quiz-->
+            <h3 id="result-title"></h3>
+            <p id="result-description"></p>
+            <div class="container">
+                <!--I asked the cs50 ai duck for the syntax that allows user to open another webpage-->
+                <a id="result-link" class="result-link" href="" taget="_blank">Learn more!</a>
+                <br />
+                <button onclick="window.location.reload()">Try Again</button> <!--used the cs50 ai duck to ask how to allow users to try the quiz again-->
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
