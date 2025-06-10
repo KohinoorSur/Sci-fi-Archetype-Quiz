@@ -1,8 +1,6 @@
 /* I used the trivia styles.css file as reference for my own and I used chatGPT to give me like hex codes for eveything, buttons and trext, that would give it like a sci-fi look.
 Didn't learn as much CSS and also don't know colors very well*/
-/* ================================
-   GENERAL PAGE LAYOUT + BODY STYLE
-   ================================ */
+
 body {
     background: black;
     color: #c5c6c7;
@@ -21,10 +19,6 @@ body {
     display: none;
 }
 
-
-/* ================================
-   HEADINGS
-   ================================ */
 h1, h2, h3 {
     color: #00FFFF;
     text-align: center;
@@ -32,9 +26,6 @@ h1, h2, h3 {
     margin: 10px 0;
 }
 
-/* ================================
-   QUESTION + LABEL STYLING
-   ================================ */
 label {
     display: block;
     margin-bottom: 10px;
@@ -52,9 +43,7 @@ label:hover {
     box-shadow: 0 0 8px #00FFFF55;
 }
 
-/* ================================
-   RESULT SECTION
-   ================================ */
+
 #result {
     text-align: center;
     margin-top: 20px;
@@ -113,9 +102,6 @@ label:hover {
     cursor: pointer;
 }
 
-/* ================================
-   BUTTONS (Global + Result Section)
-   ================================ */
 .button,
 #result button {
     background: linear-gradient(45deg, #00FFFF, #005555);
@@ -136,20 +122,14 @@ label:hover {
     box-shadow: 0 0 12px #00FFFF88;
 }
 
-/* ================================
-   NEXT/BACK BUTTON CONTAINER
-   ================================ */
 .back-next-button {
     text-align: center;
     margin-top: 10px;
 }
 
-/* ================================
-   RESULT LINK
-   ================================ */
 .result-link {
     font-size: 1.2em;
-    color: #00ffff; /* Neon cyan */
+    color: #00ffff; 
     text-decoration: underline;
     font-family: 'Orbitron', sans-serif;
     transition: 0.3s ease;
@@ -167,7 +147,7 @@ p {
 }
 
 h1 {
-  color: #00FFFF; /* Bright ice blue */
+  color: #00FFFF; 
   font-size: 2.8em;
   text-shadow: 0 0 18px #66fcf1aa;
   letter-spacing: 2px;
