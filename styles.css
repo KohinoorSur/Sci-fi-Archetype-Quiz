@@ -4,7 +4,7 @@ Didn't learn as much CSS and also don't know colors very well*/
 body {
     background: black;
     color: #c5c6c7;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif; /*font is from google fonts*/
     margin: 0;
     padding: 20px;
 }
