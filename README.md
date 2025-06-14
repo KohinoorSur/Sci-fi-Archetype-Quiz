@@ -38,10 +38,12 @@ Credits and AI use:
 - Concept and Developmet: Me
 - Sci-fi Inspiration: The Metabarons, Warhammer 40K, Blade Runner, Elysium, Ex Machina
 - Fonts: From google fonts.
+- Image Credit: All images in the index.html file is from https://unsplash.com/
 - Help and Feedback was given by:
     - ChatGPT: which assisted me in writing the scenarios, questions, syntax and mainly CSS
     - All Ai help is cited in the comments on offical code files.
-    - My friend and classmate Avie. 
+    - My friend and classmate Avie.
+  
  
 Thank you!!!!!!!! :) 
 
