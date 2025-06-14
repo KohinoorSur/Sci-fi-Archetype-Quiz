@@ -1,16 +1,20 @@
-/* I used the trivia styles.css file as reference for my own and I used chatGPT to give me like hex codes for eveything, buttons and trext, that would give it like a sci-fi look.
-Didn't learn as much CSS and also don't know colors very well*/
+/* I used the trivia styles.css file as reference for this project and I used chatGPT to give me like hex codes for eveything, buttons and texta, that would give it like a sci-fi look.
+Didn't learn as much CSS and also don't know colors very well, so mainly relied on the CS50 AI duck and Chatgpt for assiting me with CSS syntax and etc.*/
+
+/* Color schemes so basically hex codes, gradients, and shadows and button effects were suggested by ChatGPT. I asked ChatGPT to help me choose a color palette and styling that would feel cyberpunk/sci-fi
+which was basically the backbone of my whole idea. I delved into the aesthetic side of it.
+So chatgpt suggested me the neon blue gradients, button hover effects, and header styles used here. It did all the heavy lifting.*/
 
 body {
     background: black;
     color: white;
-    font-family: 'Orbitron', sans-serif; /*font is from google fonts*/
+    font-family: 'Orbitron', sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: left;
 }
@@ -19,10 +23,11 @@ body {
     display: none;
 }
 
+
 h1, h2, h3 {
-    color: #00FFFF;
+    color: #00FFFF; /* neon cyan */
     text-align: center;
-    text-shadow: 0 0 10px #00FFFF88;
+    text-shadow: 0 0 10px #00FFFF88; /* glow effect */
     margin: 10px 0;
 }
 
@@ -33,16 +38,15 @@ label {
     border: 1px solid #333;
     border-radius: 6px;
     background-color: #121212;
-    transition: 0.3s ease;
+    transition: 0.3s ease; ? /* basically a color transition when hovering on the answer choices*/
 }
 
 label:hover {
     background-color: #1a1a1a;
     border-color: #00FFFF;
     color: #00FFFF;
-    box-shadow: 0 0 8px #00FFFF55;
+    box-shadow: 0 0 8px #00FFFF55; /* this is for the border of the answer choices, makes it glow */
 }
-
 
 #result {
     text-align: center;
@@ -70,7 +74,7 @@ label:hover {
 }
 
 #result button {
-    background: linear-gradient(45deg, #00FFFF, #005555);
+    background: linear-gradient(45deg, #00FFFF, #005555); /* neon blue */
     border: none;
     color: black;
     font-weight: bold;
@@ -102,9 +106,11 @@ label:hover {
     cursor: pointer;
 }
 
+/* Gradient button was suggested by ChatGPT */
+/* But syntax was given by CS50 ai duck */
 .button,
 #result button {
-    background: linear-gradient(45deg, #00FFFF, #005555);
+    background: linear-gradient(45deg, #00FFFF, #005555); /* neon blue */
     border: none;
     color: black;
     font-weight: bold;
@@ -122,6 +128,7 @@ label:hover {
     box-shadow: 0 0 12px #00FFFF88;
 }
 
+/* From here on, is all me, becasue it consisted of just using the same syntaxes*/
 .back-next-button {
     text-align: center;
     margin-top: 10px;
@@ -129,7 +136,7 @@ label:hover {
 
 .result-link {
     font-size: 1.2em;
-    color: #00ffff; 
+    color: #00ffff; /* neon cyan */
     text-decoration: underline;
     font-family: 'Orbitron', sans-serif;
     transition: 0.3s ease;
@@ -147,7 +154,7 @@ p {
 }
 
 h1 {
-  color: #00FFFF; 
+  color: #00FFFF; /* bright ice blue */
   font-size: 2.8em;
   text-shadow: 0 0 18px #66fcf1aa;
   letter-spacing: 2px;
@@ -232,7 +239,6 @@ h1 {
     margin: 20px auto;
 
 }
-
 
 .sub1 {
     width: 300px;
