@@ -38,7 +38,10 @@ Credits and AI use:
 - Concept and Developmet: Me
 - Sci-fi Inspiration: The Metabarons, Warhammer 40K, Blade Runner, Elysium, Ex Machina
 - Fonts: From google fonts.
-- Image Credit: All images except toaster.png and end.png in the index.html file are from https://unsplash.com/. toaster.png and end.png are AI generated. 
+- Image Credit: All images except toaster.png and end.png in the index.html file are from https://unsplash.com/. toaster.png and end.png are AI generated.
+- I used ChatGPT (OpenAI) to help me:
+      - Design the color palette and choose sci-fi themed hex codes for buttons, backgrounds, and text
+      - Style UI elements like hover effects and gradients
 - Help and Feedback was given by:
     - ChatGPT: which assisted me in writing the scenarios, questions, syntax and mainly CSS
     - All Ai help is cited in the comments on offical code files.
