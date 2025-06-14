@@ -232,3 +232,18 @@ h1 {
     margin: 20px auto;
 
 }
+
+
+.sub1 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.sub2 {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
